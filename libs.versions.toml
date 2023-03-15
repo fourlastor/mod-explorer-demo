@@ -1,0 +1,12 @@
+[versions]
+compose = "1.3.0"
+kotlin = "1.8.0"
+pf4j = "3.9.0"
+shadow = "7.1.2"
+[libraries]
+pf4j-core = { module = "org.pf4j:pf4j", version.ref = "pf4j" }
+[plugins]
+compose = { id = "org.jetbrains.compose", version.ref = "compose" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
